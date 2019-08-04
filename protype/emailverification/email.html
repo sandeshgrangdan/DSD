@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	</style>
+</head>
+<body>
+						<div class='email-background' style='background: #eeeeee;padding: 10px;'>
+							<div class='pre-header' style='max-width: 500px;background: #eeeeee;font-family: sans-serif;margin: 0 auto;overflow: hidden;border-radius: 5px;text-align: center;color: #eeeeee;font-size: 5px;'>
+									Please Check Your Invoice
+							</div>
+							<div class='email-container' style='max-width: 500px;background: white;font-family: sans-serif;margin: 0 auto;overflow: hidden;border-radius: 5px;text-align: center;'>
+								<h1>Please check your invoice! <img src='https://i.postimg.cc/9FGBbr4h/DSD.png' style='max-width: 50px;border-radius: 50%;display: block;margin-left: auto;margin-right: auto;'></h1>
+							</div>
+							<br>
+							
+							<div class='footer-junk' style='text-align: center;'>	
+								    <input type='hidden' value='djnfkjsejdfnskjdfkjsdfjsndfjskdfjskbdzfjskbdf ' placeholder='Enter your text to be put into the QR Code' id='text-input' >
+									<canvas id='qrcode-canvas' style='padding:1em; background-color:#E8E8E8'></canvas>
+									<svg id='qrcode-svg' style='width:30em; height:30em; padding:1em; background-color:#E8E8E8'>
+										<rect width='100%' height='100%' fill='#FFFFFF' stroke-width='0'></rect>
+										<path d=' fill='#000000' stroke-width='0'></path>
+									</svg>
+									<input type='hidden' name='errcorlvl' id='errcorlvl-low' checked='checked'><label for='errcorlvl-low'></label>
+									<input type='hidden' name='errcorlvl' id='errcorlvl-medium'><label for='errcorlvl-medium'></label>
+									<input type='hidden' name='errcorlvl' id='errcorlvl-quartile'><label for='errcorlvl-quartile'></label>
+									<input type='hidden' name='errcorlvl' id='errcorlvl-high'><label for='errcorlvl-high'></label>
+									<input type='hidden' name='output-format' id='output-format-bitmap' checked='checked'>
+									<input type='hidden' name='output-format' id='output-format-vector'><label for='output-format-vector'></label>
+									<input type='hidden' value='4' min='0' max='100' step='1' id='border-input' style='width:4em'>
+									<span id='scale-row'></span>
+									<input type='hidden' value='8' min='1' max='30' step='1' id='scale-input' style='width:4em'>
+									<input type='hidden' value='1'  min='1' max='40' step='1' id='version-min-input' style='width:4em' oninput='app.handleVersionMinMax('min');'>,
+									<input type='hidden' value='40' min='1' max='40' step='1' id='version-max-input' style='width:4em' oninput='app.handleVersionMinMax('max');'>
+									<input type='hidden' value='-1' min='-1' max='7' step='1' id='mask-input' style='width:4em'>
+									<input type='hidden' checked='checked' id='boost-ecc-input'>
+									<input type='hidden' id='statistics-output' style='white-space:pre'>
+									<span id='svg-xml-row'></span>
+									<input type='hidden' id='svg-xml-output'>	
+							</div>
+							<p style='margin: 20px;font-size: 18px;font-weight: 300;line-height: 1.5;color: #666666;text-align: center;'>Dherai Sasto Deal(DSD) send your invoice in QR code for security features,
+							Thank You!</p>
+							<div class='cat' style='margin: 20px;text-align: center;'>
+																
+								<small>© 2019 Dhera Sasto Deal., All Rights Reserved.<br>
+									New Baneshwor, Kathmandu Nepal, NP +(977)<br>
+									Thanks for having us.
+								</small>
+									<br>
+								Visit Our Page <a href='http://localhost/Phpweb/protype/index.php'>Dherai Sasto Deal</a>
+							</div>
+						</div>
+		<script type='application/javascript' src='https://www.nayuki.io/res/qr-code-generator-library/qrcodegen.js'></script>
+        <script type='application/javascript' src='https://www.nayuki.io/res/qr-code-generator-library/qrcodegen-demo.js'></script>
+
+
+</body>
+</html>
