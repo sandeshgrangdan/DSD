@@ -339,7 +339,7 @@ if(isset($_GET['login_error'])){
 				</div>
 				<!--//row-->
 				<!--/meddle-->
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-12 middle-slider my-4">
 						<div class="middle-text-info ">
 
@@ -348,7 +348,7 @@ if(isset($_GET['login_error'])){
 
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!--//meddle-->
 				<!--/slide-->
 				<div class="slider-img mid-sec">
@@ -445,7 +445,7 @@ if(isset($_GET['login_error'])){
 					</div>
 				</div>
 				<!-- /testimonials -->
-				<div class="testimonials py-lg-4 py-3 mt-4">
+				<!-- <div class="testimonials py-lg-4 py-3 mt-4">
 					<div class="testimonials-inner py-lg-4 py-3">
 						<h3 class="tittle-w3layouts text-center my-lg-4 my-4">Tesimonials</h3>
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -492,9 +492,9 @@ if(isset($_GET['login_error'])){
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- //testimonials -->
-				<div class="row galsses-grids pt-lg-5 pt-3">
+				<!-- <div class="row galsses-grids pt-lg-5 pt-3">
 					<div class="col-lg-6 galsses-grid-left">
 						<figure class="effect-lexi">
 							<img src="images/banner4.jpg" alt="" class="img-fluid">
@@ -517,7 +517,7 @@ if(isset($_GET['login_error'])){
 							</figcaption>
 						</figure>
 					</div>
-				</div>
+				</div> -->
 				<!-- /grids -->
 				<div class="bottom-sub-grid-content py-lg-5 py-3">
 					<div class="row">
