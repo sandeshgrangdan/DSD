@@ -1903,7 +1903,7 @@ var defaults = module.exports = {
 
     parent: (typeof document !== 'undefined') ? document.body : null,
 
-    action: 'checkout.html',
+    action: 'checkout.php',
 
     target: '',
 
@@ -2959,7 +2959,7 @@ module.exports = viewevents = {
     },
 
 
-    keyup: function (evt) {
+    keyup: async function (evt) {
         var that = this,
             target = evt.target,
             timer;

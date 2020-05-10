@@ -62,8 +62,8 @@
 						
 						<li class="galssescart galssescart2 cart cart box_1">
 							<form action="checkout.php" method="post" class="last">
-								<!-- <input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="display" value="1"> -->
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
 								<button class="top_googles_cart" type="submit" name="submit" value="">
 									My Cart
 									<i class="fas fa-cart-arrow-down"></i>

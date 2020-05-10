@@ -306,8 +306,15 @@ if(isset($_GET['login_error'])){
 												</li>
 											</ul>
 										</div>
+
+									
 										
-											<form method="post" action="index.php?action=add&id='.$rows["id"].'" onsubmit="return pop()">
+											<form method="post" action="" >
+
+															<input type="hidden" name="cmd" value="_cart">
+															<input type="hidden" name="amount" value="'.$rows["price"].'">
+															<input type="hidden" name="add" value="1">
+															<input type="hidden" name="googles_item" value="'.$rows["name"].'">
 															
 
 																<input type="hidden" name="quantity" value="1" class="form-control" />
@@ -413,7 +420,12 @@ if(isset($_GET['login_error'])){
 																</li>
 															</ul>
 														</div>
-														<form method="post" action="index.php?action=add&id='.$rows["id"].'" onsubmit="return pop()">
+														<form method="post" action="" >
+
+																<input type="hidden" name="cmd" value="_cart">
+																	<input type="hidden" name="amount" value="'.$rows["price"].'">
+																	<input type="hidden" name="add" value="1">
+																	<input type="hidden" name="googles_item" value="'.$rows["name"].'">
 															
 
 																<input type="hidden" name="quantity" value="1" class="form-control" />
